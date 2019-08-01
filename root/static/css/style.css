@@ -1,0 +1,16 @@
+/* Typography */
+/* navbar */
+
+.navbar-brand{
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+.navbar-brand > img{
+  display: initial;
+}
+.navbar-header{
+  width:100%;
+  text-align:center;
+}
