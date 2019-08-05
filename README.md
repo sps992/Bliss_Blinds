@@ -1,2 +1,3 @@
-# Bliss_Blinds
-New Website Progress
+# Bliss Blinds
+New website for local soft furnishing company, using the bootstrap 3.3.7 framework.
+Lets get busy...
