@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/css/bootstrap.css" >
     <link rel="stylesheet" href="static/css/style.css" >
-
-
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:800|Open+Sans:600&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#FDD114">
+      <!-- Collect the nav links, forms, and other content for toggling -->
     <title>Bliss Blinds</title>
 
   </head>
@@ -22,26 +29,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="static/images/brand.svg" width="150" height="auto" alt="Bliss Blinds"></a>
+      <a class="navbar-brand" href="#"><img src="static/images/brand.svg" width="235" height="auto" alt="Bliss Blinds"></a>
     </div>
     <br>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <p>Contact Us</p>
-        <li>Tel: 01726 67321</li>
+      <ul class="nav navbar-right">
+        <p class="nav-heading">Contact Us</p>
+        <li><i class="fas fa-phone-square-alt"></i>Tel: 01726 67321</li>
         <li>sales@blissblinds.co.uk</li>
 
       </ul>
       <ul class="nav navbar-nav navbar-left">
-        <li>yell Icon</li>
-        <li>Twitter Icon</li>
-        <li>facebook Icon</li>
+        <li class="mobile-align"><a href="https://www.yell.com/biz/bliss-blinds-cornwall-st-austell-142849/"><img src="static/images/yell.svg" width="50" height="50" alt="yell.com"></a></li>
+        <li class="mobile-align"><a><img src="static/images/fb.svg" width="50" height="50" alt="facebook"></a></li>
+        <li class="mobile-align"><a><img src="static/images/twitter.svg" width="50" height="50" alt="twitter"></a></li>
+
 
       </ul>
       <br style="clear: both;">
-      <div style="margin:auto; width:50%; text-align:center;padding-top:22px;">
+      <div class="nav-sitemap">
       <ul class="nav navbar-nav" >
         <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Blinds</a></li>
@@ -56,10 +64,138 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<!-- Carousel
+================================================== -->
+<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <div class="carousel-item" style="background-image:url('static/images/car1.jpg')" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Cornwall’s answer to bespoke curtains and blinds</h1>
+          <p class="carouselTagline">With over 30 years of experience, Bliss Blinds (located in St Austell, Cornwall) manufactures an unrivalled range of curtains and blinds specifically crafted for domestic and commercial customers.</p>
+          <p><a class="btn btn-lg" href="mailto:sales@blissblinds.co.uk?subject=Question about blinds" role="button">Ask a question</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="item">
+    <div class="carousel-item" style="background-image:url('static/images/car2.jpg')" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Custom blinds for your home or commercial space</h1>
+          <p class="carouselTagline">Whether you want to fit roller blinds at your home, or are looking for blackout blinds for your office, you can count on us.</p>
+          <p><a class="btn btn-lg" href="blinds.html" role="button">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="item">
+      <div class="carousel-item" style="background-image:url('static/images/car3.jpg')" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>We have installed various beautiful soft furnishings</h1>
+          <p class="carouselTagline">We serve customers in St Austell and across Cornwall. Take a look through our gallery below to see a selection of our work</p>
+          <p><a class="btn btn-lg" href="#" role="button">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- /.carousel -->
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+  <li data-target="#Carousel" data-slide-to="1"></li>
+  <li data-target="#Carousel" data-slide-to="2"></li>
+</ol>
+<section id="about">
+  <div class="container">
+    <h3>Who Are We</h3>
+    <p>Bliss Blinds (Cornwall) is a family-run business in St Austell.
+      With over three decades of experience, we pride ourselves on providing top-quality customer care,
+      as well as value for money. You can either choose from our range of curtains and blinds,
+      or we can manufacture blinds using your own choice of fabric.
+      Our team has years of experience in this trade, and are fully qualified to deliver a tailored service,
+      every time. We serve both residential and commercial clients across Cornwall.
+    </p>
+  </div>
+
+</section>
+<section id="referral">
+  <div class="container-quote">
+    <h3>“Excellent company. You won't find a better service”</h3>
+    <p>“Adrian fitted the blinds so well they look as if they belong in the window frames. We
+      are very impressed with their service, speed in supplying and perfection in fitting the
+      blinds. Adrian gives good advice on colour too, which is a help as it's not always easy
+      to picture something in place. A good company that really do care about their
+      customers and the products they supply. They also supplied and fitted vertical blinds
+      in another room. An excellent company from start to finish, and we can
+      wholeheartedly recommend them. Thank you Adrian, we are well impressed!”
+    </p>
+    <p>--Jenna Kirk</p>
+  </div>
+
+</section>
+<section id="portfolio">
+  <div class="container">
+    <h3>Not Sold Yet</h3>
+    <p>View a small selection of our stunning portfolio of work.
+      We are very proud to have helped people transform their spaces for over 30 years
+    </p>
+    <button class="btn btn-lg" href="#">Our Gallery</button>
+  </div>
+
+</section>
+
+  <div class="container-fluid">
+    <h3 class="title-margin" >Where Can You Find Us?</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10185.23359609915!2d-4.758368!3d50.342153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bdaa1dec5c2c69e!2sBliss+Blinds!5e0!3m2!1sen!2suk!4v1565450319336!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+  </div>
+
+
+
+
+<footer>
+  <div class="footer-brand">
+    <div class="pull-left col-md-4">
+      <p>2019 Bliss Blinds &copy;</p>
+    </div>
+    <div class="col-md-4">
+      <ul style="list-style-type:none;">
+        <li>Terms of use</li>
+        <li>Privacy & Cookie Policy</li>
+        <li>Trading Terms</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h4>Contact Us:</h4>
+        <ul>
+          <li class="footer-lists"><a href="https://www.yell.com/biz/bliss-blinds-cornwall-st-austell-142849/"><img src="static/images/yell.svg" width="50" height="25" alt="yell.com"></a></li>
+          <li class="footer-lists"><a><img src="static/images/fb.svg" width="50" height="25" alt="facebook"></a></li>
+          <li class="footer-lists"><a><img src="static/images/twitter.svg" width="50" height="25" alt="twitter"></a></li>
+          <li class="footer-lists"><a><img src="static/images/email.svg" width="50" height="25" alt="email"></a></li>
+          <li class="footer-lists"><a><img src="static/images/phone.svg" width="50" height="25" alt="phone"></a></li>
+        </ul>
+    </div>
+  </div>
+
+</footer>
+
+
     <script src="static/js/jquery.min.js"></script>
     <script src="static/js/bootstrap.js" ></script>
-
   </body>
 </html>
