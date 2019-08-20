@@ -37,6 +37,9 @@ h1,h2,h3,h4,h5{
   margin-top:75px;
 }
 
+.container-quote h3{color:#FDD114;}
+.container-quote p{color:#fff; background-color: rgba(0,0,0,0.1);}
+
 /* buttons */
 .btn{border:3px solid}
 
@@ -121,24 +124,27 @@ button:hover{transition: all 0.5s;}
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
-
-.container-quote{
-  min-height:450px;
-  padding:15px;
-  margin-right: auto;
-  margin-left: auto;
 
 }
 
 .container-quote{
   min-height:450px;
+  width:100%;
   padding:15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0;
+  background-image: url("../images/quote_container.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 2px 1px 2px #000000b8;
 
 
 }
+.container-quote img{
+
+}
+
 
 /* media Queries */
 
@@ -162,7 +168,7 @@ button:hover{transition: all 0.5s;}
 
   @media (min-width: 318px) and (max-width: 992px) {
     footer{
-      min-height:210px;
+      min-height:334px;
     }
   }
 
@@ -192,12 +198,12 @@ section{
 
 /* footer */
 
-footer{width:100%; background-color:#777;height:100px; color:white; border-top: 2px solid #FDD114;}
+footer{width:100%; background-color:#777;height:150px; color:white; border-top: 2px solid #FDD114;}
 
 .footer-brand{margin:0 auto; text-align:center;padding:22px;}
 
 .footer-lists{float:left;}
 
-.footer-terms{list-style-type:none; padding-inline-start:0;}
+.footer-terms{list-style-type:none; padding-inline-start:0; margin-top: 20px;}
 
 ul{list-style-type: none;}
