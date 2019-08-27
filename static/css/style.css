@@ -12,6 +12,12 @@ img:hover{transition: all 0.5s;}
 li.footer-lists:hover{opacity:1;}
 /* Typography */
 
+.lead_title{
+  margin-top:75px;
+  margin-bottom:75px;
+  font-size: 45px;
+}
+
 body{font-family: 'Open Sans' , sans-serif;}
 
 h3, p{
@@ -67,7 +73,6 @@ button:hover{transition: all 0.5s;}
 
 .nav-sitemap{
   margin:auto;
-  width:50%;
   text-align:center;
   padding-top:22px;
 }
@@ -119,7 +124,7 @@ button:hover{transition: all 0.5s;}
 /* container */
 .container{
   position: relative;
-  height:450px;
+  min-height:510px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -141,10 +146,20 @@ button:hover{transition: all 0.5s;}
 
 
 }
-.container-quote img{
-
+.container-blinds{
+  min-height:372px;
+  padding: 22px;
+  text-align:center;
+  transition: box-shadow .3s;
+  margin: 50px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
 }
-
+.container-blinds:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
 
 /* media Queries */
 
@@ -164,7 +179,11 @@ button:hover{transition: all 0.5s;}
     .mobile-align{
       display: inline-block!important;
     }
+
+
   }
+
+
 
   @media (min-width: 318px) and (max-width: 992px) {
     footer{
