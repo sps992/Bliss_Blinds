@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.css" >
+    <link rel="stylesheet" href="static/css/style.css" >
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:800|Open+Sans:600&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#FDD114">
+
+    <title>Bliss Blinds</title>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/scripts.js" ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="static/images/brand.svg" width="235" height="auto" alt="Bliss Blinds"></a>
+    </div>
+    <br>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-right">
+        <p class="nav-heading">Contact Us</p>
+        <li><i class="fas fa-phone-square-alt"></i>Tel: 01726 67321</li>
+        <li>sales@blissblinds.co.uk</li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="mobile-align"><a href="https://www.yell.com/biz/bliss-blinds-cornwall-st-austell-142849/" target="blank" ><img src="static/images/yell.svg" width="50" height="50" alt="yell.com"></a></li>
+        <li class="mobile-align"><a href="https://www.facebook.com/blissblinds/" target="blank"><img src="static/images/fb.svg"  width="50" height="50" alt="facebook"></a></li>
+        <li class="mobile-align"><a href="#" target="blank"><img src="static/images/twitter.svg" width="50" height="50" alt="twitter"></a></li>
+
+
+      </ul>
+      <br style="clear: both;">
+      <div class="nav-sitemap">
+      <ul class="nav navbar-nav" >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blinds.html">Blinds</a></li>
+        <li class="active" ><a href="#">Curtains<span class="sr-only">(current)</span></a></li>
+        <li><a href="shutters.html">Shutters</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Carousel
+================================================== -->
+<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <div class="carousel-item" style="background-image:url('static/images/car1.jpg')" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Cornwall’s answer to bespoke curtains and blinds</h1>
+          <p class="carouselTagline">With over 30 years of experience, Bliss Blinds (located in St Austell, Cornwall) manufactures an unrivalled range of curtains and blinds specifically crafted for domestic and commercial customers.</p>
+          <p><a class="btn btn-lg" href="mailto:sales@blissblinds.co.uk?subject=Question about blinds" role="button">Ask a question</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="item">
+    <div class="carousel-item" style="background-image:url('static/images/car2.jpg')" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Custom blinds for your home or commercial space</h1>
+          <p class="carouselTagline">Whether you want to fit roller blinds at your home, or are looking for blackout blinds for your office, you can count on us.</p>
+          <p><a class="btn btn-lg" href="blinds.html" role="button">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="item">
+      <div class="carousel-item" style="background-image:url('static/images/car3.jpg')" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>We have installed various beautiful soft furnishings</h1>
+          <p class="carouselTagline">We serve customers in St Austell and across Cornwall. Take a look through our gallery below to see a selection of our work</p>
+          <p><a class="btn btn-lg" href="#" role="button">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- /.carousel -->
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+  <li data-target="#Carousel" data-slide-to="1"></li>
+  <li data-target="#Carousel" data-slide-to="2"></li>
+</ol>
+<section id="about">
+  <div class="row">
+    <div class="col-md-12">
+      <div style="text-align:center;">
+        <h3 class="lead_title">Tailored curtain fitting</h3>
+        <img src="static/images/curtains.svg" alt="blackout" width="150" height="150"/>
+          <p class="lead" >At Bliss Blinds (Cornwall), we offer a huge range of curtains to suit your needs.
+            You can either choose from our range of options, or bring us your own fabric, and we can fashion the perfect set of curtains for you.
+            We are committed to providing a professional, personal service every time. We can tailor our curtains and drapes to match your home or office design.
+            We have curated a carefully chosen range of products that are sure to meet your specifications. Contact us with your queries.
+          </p>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- End of Row -->
+  <div class="row">
+  <div style="background-color:#FDD114;" class="col-md-12">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div style="text-align:center; padding:22px;  color:white;">
+        <h3 class="lead_title">Meeting your curtain needs</h3>
+          <p >At Bliss Blinds (Cornwall), we offer a huge range of curtains to suit your needs.
+            You can either choose from our range of options, or bring us your own fabric, and we can fashion the perfect set of curtains for you.
+            We are committed to providing a professional, personal service every time. We can tailor our curtains and drapes to match your home or office design.
+            We have curated a carefully chosen range of products that are sure to meet your specifications. Contact us with your queries.
+          </p>
+
+      </div>
+    </div>
+    <div id="container_curtain_needs" class="col-sm-12 col-md-8">
+
+    </div>
+
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+<footer>
+  <div class="footer-brand">
+    <div class="col-sm-12 col-md-4">
+      <p class="lead">Bliss Blinds &copy; 2019</p>
+      <p>Created by <a href="https://sps-creativedesign.co.uk/" target="_blank">SPS Creative Design</a></p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <ul class="footer-terms" >
+        <li><a href="#" target="_blank">Terms of use</a></li>
+        <li><a href="#" target="_blank">Privacy & Cookie Policy</a></li>
+        <li><a href="#" target="_blank">Trading Terms</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <h4>Contact Us:</h4>
+        <ul>
+          <li class="footer-lists"><a href="https://www.yell.com/biz/bliss-blinds-cornwall-st-austell-142849/" target="_blank"><img src="static/images/yellw.svg" width="50" height="25" alt="yell.com"></a></li>
+          <li class="footer-lists"><a href="https://www.facebook.com/blissblinds/" target="_blank"><img src="static/images/fbw.svg" width="50" height="25" alt="facebook"></a></li>
+          <li class="footer-lists"><a href="#" target="_blank"><img src="static/images/twitterw.svg" width="50" height="25" alt="twitter"></a></li>
+          <li class="footer-lists"><a href="#" target="_blank"><img src="static/images/email.svg" width="50" height="25" alt="email"></a></li>
+          <li class="footer-lists"><a href="#" target="_blank"><img src="static/images/phone.svg" width="50" height="25" alt="phone"></a></li>
+        </ul>
+    </div>
+  </div>
+
+</footer>
+
+
+
+    <script src="static/js/bootstrap.js" ></script>
+
+
+  </body>
+</html>
