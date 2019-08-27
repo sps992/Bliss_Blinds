@@ -132,6 +132,7 @@ button:hover{transition: all 0.5s;}
 
 }
 
+
 .container-quote{
   min-height:450px;
   width:100%;
@@ -159,6 +160,16 @@ button:hover{transition: all 0.5s;}
 }
 .container-blinds:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#container_curtain_needs{
+  background-image: url("../images/curtains-hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:700px;
+  padding:22px;
 }
 
 /* media Queries */
