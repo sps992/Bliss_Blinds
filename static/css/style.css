@@ -1,3 +1,13 @@
+/* scrollbar */
+
+::-webkit-scrollbar {width: 10px;}
+
+::-webkit-scrollbar-track {background: #f1f1f1;}
+
+::-webkit-scrollbar-thumb {background: #777}
+
+::-webkit-scrollbar-thumb:hover {background: #FDD114;}
+
 /* Elements */
 
 a, li{text-decoration: none!important;}
@@ -16,6 +26,13 @@ li.footer-lists:hover{opacity:1;}
   margin-top:75px;
   margin-bottom:75px;
   font-size: 45px;
+}
+
+.lead_shutters{
+  margin: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 body{font-family: 'Open Sans' , sans-serif;}
@@ -124,7 +141,7 @@ button:hover{transition: all 0.5s;}
 /* container */
 .container{
   position: relative;
-  min-height:510px;
+  min-height:476px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -138,7 +155,7 @@ button:hover{transition: all 0.5s;}
   width:100%;
   padding:15px;
   margin: 0;
-  background-image: url("../images/quote_container.jpg");
+  background-image: url("../img/quote_container.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,13 +180,32 @@ button:hover{transition: all 0.5s;}
 }
 
 #container_curtain_needs{
-  background-image: url("../images/curtains-hero.jpg");
+  background-image: url("../img/curtains-hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height:700px;
   padding:22px;
+}
+#container_wooden-shutter{
+  background-image: url("../img/wooden-hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:700px;
+  padding:22px;
+}
+
+.container-gallery{
+  position: relative;
+  min-height:510px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
 }
 
 /* media Queries */
@@ -194,12 +230,17 @@ button:hover{transition: all 0.5s;}
 
   }
 
-
+  @media (min-width: 318px) and (max-width: 425px){
+    .photo-gallery > ul > li{
+      float:none;
+    }
+  }
 
   @media (min-width: 318px) and (max-width: 992px) {
     footer{
       min-height:334px;
     }
+
   }
 
 
@@ -228,7 +269,14 @@ section{
 
 /* footer */
 
-footer{width:100%; background-color:#777;height:150px; color:white; border-top: 2px solid #FDD114;}
+footer{
+  width:100%;
+  background-color:#777;
+  height:158px;
+  color:white;
+  border-top: 2px solid #FDD114;
+
+}
 
 .footer-brand{margin:0 auto; text-align:center;padding:22px;}
 
